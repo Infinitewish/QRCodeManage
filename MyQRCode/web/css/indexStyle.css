@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #33FF9966;
+}
+
+.main {
+    width: 1200px;
+    margin: 5px auto auto auto;
+}
+
+.main Div.box {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main Div.box Div {
+    padding-bottom: 5px;
+}
+
+.main Div.box Div input.generateText {
+    width: 800px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main Div.box Div button.generateButton {
+    width: 80px;
+    height: 30px;
+}

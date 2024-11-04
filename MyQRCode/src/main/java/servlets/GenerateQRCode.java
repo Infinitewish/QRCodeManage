@@ -36,7 +36,7 @@ public class GenerateQRCode extends HttpServlet {
 
             // 创建MultiFormatWriter
             MultiFormatWriter writer = new MultiFormatWriter();
-            BitMatrix bitMatrix = writer.encode(url, BarcodeFormat.QR_CODE, 500, 500, map);
+            BitMatrix bitMatrix = writer.encode(url, BarcodeFormat.QR_CODE, 800, 800, map);
             int width = bitMatrix.getWidth();
             int height = bitMatrix.getHeight();
 
